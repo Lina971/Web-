@@ -1,0 +1,105 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px; 
+    line-height: 1.6;
+    max-width: 1200px;
+    border: 5px solid SaddleBrown; 
+    border-radius: 15px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+	
+}
+
+
+
+
+h1 {
+    color: Darkblue;
+    text-align: center;
+	font-size: 3em; 
+	border-bottom: 2px solid SaddleBrown;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px 5px gray; 
+	
+}
+
+h2 {
+    color: DarkGoldenRod;
+    text-align: center;
+	font-size: 2em;
+	margin-top: 10px;
+}
+img {
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+	height: auto; 
+	width: 300px
+	}
+	
+
+
+table {
+	margin: 20px auto;
+	border-collapse : collapse;
+	width: 80%; 
+}
+	
+	
+td, th {
+	border : 3px solid SaddleBrown;
+	padding: 15px;
+	text-align: left; 
+	background-color: DarkKhaki; 
+	font-size: 1em; 
+}
+
+
+ul {
+	width: 80%; 
+	margin: 0 auto;
+	padding: 20px; 
+	background-color: DarkKhaki;
+	border-radius: 8px; 
+}	
+
+
+ul li {
+	margin-bottom: 10px
+	}
+
+
+p {
+	margin-left : 20px; 
+	margin-right : 20px;
+	max-width: 70%; 
+}
+
+
+.container {
+	display: flex; 
+	justify-content: center; 
+	gap: 20px; 
+}	
+	
+
+.large-text{
+	font-size: 1.2em;
+	text-align: center;
+	margin : 0 auto; 
+	Width: 95%; 
+	max-width: 1000px; 
+	padding: 10 px; 
+}
+
+.highlight {
+    background-color: yellow; 
+    padding: 0 5px; 
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+
